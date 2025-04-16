@@ -9,10 +9,14 @@ This project is an in-progress pipeline to analyze historical avalanche forecast
 - Perform exploratory data analysis and evaluate predictive models
 - Extend modeling with terrain-specific risk features from image-based data (planned)
 
+## Modelling Pipeline
+
+- The modeling pipeline focuses on estimating key accident outcomes such as whether a person was caught, carried, buried (partially or fully), injured, or killed.
+
 ## Current Status
 
 - ✅ **Web scraping**: Python script using `selenium` to retrieve structured forecast data from the UAC website
-- ✅ **Data integration**: `Forecaster.R` file ingests and cleans forecast, observation, and avalanche report CSVs
+- 🚧 **Data integration**: `Forecaster.R` file ingests and cleans forecast, observation, and avalanche report CSVs. Will eventually hold EDA and logistic model.
 - 🚧 **Modeling pipeline**: Logistic regression models in development using `caret` (R)
 - 🚧 **Exploratory analysis**: To be conducted as part of MVP
 - 📝 **Image segmentation**: Planned feature to extract terrain-level avalanche risk variables from forecast images
