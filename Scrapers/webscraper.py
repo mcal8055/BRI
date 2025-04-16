@@ -1,3 +1,4 @@
+import os
 import re
 import time
 import numpy as np
@@ -39,13 +40,13 @@ problem_aliases = {
 }
 
 # === Dates to test ===
-test_dates = ["2025-03-01", "2025-03-17", "2025-03-03"]
+date_range = pd.date_range(start='2024-11-24', end='2025-04-09')
 
-# === Where we store the result ===
+
 problem_rows = []
 
 # === Scraping loop ===
-for date_str in test_dates:
+for date_str in date_range:
     print(f"\n📆 Scraping forecast for {date_str}...")
 
     formatted_date = pd.to_datetime(date_str).strftime("%-m/%-d/%Y")
@@ -62,6 +63,23 @@ for date_str in test_dates:
         time.sleep(3)
         scroll_height = driver.execute_script("return document.body.scrollHeight")
         driver.set_window_size(1920, scroll_height)
+
+        # Grab all strong tags
+        strong_tags = driver.find_elements(By.TAG_NAME, "strong")
+
+        # Define the possible danger levels
+        danger_levels = ["LOW", "MODERATE", "CONSIDERABLE", "HIGH", "EXTREME"]
+
+        # Loop through the strong tags and find the first one that matches a danger level
+        danger_rating = None
+        for tag in strong_tags:
+            if tag.text.upper() in danger_levels:
+                danger_rating = tag.text.upper()
+                break
+
+        # If no danger rating was found, set it to None
+        if not danger_rating:
+            danger_rating = "None"
 
         # Grab visible forecast text from body
         text = driver.find_element(By.TAG_NAME, "body").text
@@ -82,6 +100,7 @@ for date_str in test_dates:
                 problems_found.append(normalized)
 
         print(f"✔️ Problems found for {date_str}: {problems_found}")
+        print(f"✔️ Danger Rating for {date_str}: {danger_rating}")
 
         # === Store rows ===
         for i, problem in enumerate(problems_found):
@@ -90,6 +109,7 @@ for date_str in test_dates:
                 "date": date_str,
                 "problem_number": i + 1,
                 "problem_type": problem,
+                "danger_rating": danger_rating,
                 "danger_low": "TBD",
                 "danger_mid": "TBD",
                 "danger_high": "TBD",
@@ -139,65 +159,7 @@ pivoted["size"] = "TBD"
 print("\n📊 Forecast Table (Structured):")
 print(pivoted.to_string(index=False))
 
-
-# -----------------------------
-# TEMPLATE MATCHING (for later)
-# -----------------------------
-"""
-# ===============================
-# TEMPLATE MATCHING: Likelihood Detection
-# ===============================
-# This block uses OpenCV to dynamically locate the Likelihood graphic
-# in the full forecast screenshot using a template image.
-
-import cv2
-import numpy as np
-
-# Load full screenshot and the template image
-full_img = cv2.imread("forecast_screenshot.png")
-template = cv2.imread("likelihood_template.png")
-
-# Convert to grayscale
-full_gray = cv2.cvtColor(full_img, cv2.COLOR_BGR2GRAY)
-template_gray = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
-
-# Template matching
-res = cv2.matchTemplate(full_gray, template_gray, cv2.TM_CCOEFF_NORMED)
-min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
-
-# Coordinates of matched region
-top_left = max_loc
-h, w = template.shape[:2]
-bottom_right = (top_left[0] + w, top_left[1] + h)
-
-# Crop matched region
-matched_crop = full_img[top_left[1]:bottom_right[1], top_left[0]:bottom_right[0]]
-cv2.imwrite("matched_likelihood_block.png", matched_crop)
-
-# Divide the matched block into 5 rows and find the row with the blue arrow
-likelihood_scale = {
-    1: "Certain",
-    2: "Very Likely",
-    3: "Likely",
-    4: "Possible",
-    5: "Unlikely"
-}
-
-arrow_row = None
-row_height = h // 5
-for i in range(5):
-    row = matched_crop[i * row_height:(i + 1) * row_height, :]
-    blue_pixels = 0
-    for y in range(row.shape[0]):
-        for x in range(row.shape[1]):
-            b, g, r = row[y, x]
-            if r < 100 and g < 100 and b > 150:
-                blue_pixels += 1
-    if blue_pixels > 20:
-        arrow_row = i + 1
-        break
-
-likelihood_result = likelihood_scale.get(arrow_row, "Unknown")
-
-print("📍 Detected Likelihood via Template Match:", likelihood_result)
-"""
+# === Save to CSV ===
+os.makedirs('data', exist_ok=True)
+pivoted.to_csv('data/forecast_data.csv', index=False)
+print("✅ Data saved to 'data/forecast_data.csv'")

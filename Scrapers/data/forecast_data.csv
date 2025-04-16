@@ -1,0 +1,138 @@
+forecast_id,date,Avalanche Problem #1,Avalanche Problem #2,Avalanche Problem #3,Avalanche Problem #4,Avalanche Problem #5,danger_low,danger_mid,danger_high,likelihood,size
+f20241124,2024-11-24,Persistent Weak Layer,Wind-Drifted Snow,New Snow,,,TBD,TBD,TBD,TBD,TBD
+f20241125,2024-11-25,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241126,2024-11-26,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20241127,2024-11-27,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20241128,2024-11-28,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20241129,2024-11-29,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20241130,2024-11-30,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241201,2024-12-01,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241202,2024-12-02,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241203,2024-12-03,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241204,2024-12-04,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241205,2024-12-05,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241206,2024-12-06,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241207,2024-12-07,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241208,2024-12-08,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241209,2024-12-09,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241210,2024-12-10,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241211,2024-12-11,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241212,2024-12-12,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20241213,2024-12-13,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241214,2024-12-14,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241215,2024-12-15,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20241216,2024-12-16,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20241217,2024-12-17,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20241218,2024-12-18,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20241219,2024-12-19,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241220,2024-12-20,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241221,2024-12-21,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241222,2024-12-22,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241223,2024-12-23,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241224,2024-12-24,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241225,2024-12-25,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241226,2024-12-26,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20241227,2024-12-27,Persistent Weak Layer,Wind-Drifted Snow,New Snow,,,TBD,TBD,TBD,TBD,TBD
+f20241228,2024-12-28,Persistent Weak Layer,Wind-Drifted Snow,New Snow,,,TBD,TBD,TBD,TBD,TBD
+f20241229,2024-12-29,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20241230,2024-12-30,Persistent Weak Layer,Wind-Drifted Snow,New Snow,,,TBD,TBD,TBD,TBD,TBD
+f20241231,2024-12-31,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250101,2025-01-01,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250102,2025-01-02,Persistent Weak Layer,Wind-Drifted Snow,New Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250103,2025-01-03,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250104,2025-01-04,Persistent Weak Layer,Wind-Drifted Snow,New Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250105,2025-01-05,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250106,2025-01-06,Persistent Weak Layer,,,,,TBD,TBD,TBD,TBD,TBD
+f20250107,2025-01-07,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250108,2025-01-08,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250109,2025-01-09,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250110,2025-01-10,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250111,2025-01-11,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250112,2025-01-12,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250113,2025-01-13,Persistent Weak Layer,New Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250114,2025-01-14,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250115,2025-01-15,Persistent Weak Layer,Wind-Drifted Snow,Wet Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250116,2025-01-16,Persistent Weak Layer,Wet Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250117,2025-01-17,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250118,2025-01-18,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250119,2025-01-19,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250120,2025-01-20,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250121,2025-01-21,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250122,2025-01-22,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250123,2025-01-23,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250124,2025-01-24,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250125,2025-01-25,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250126,2025-01-26,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250127,2025-01-27,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250128,2025-01-28,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250129,2025-01-29,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250130,2025-01-30,Normal Caution,,,,,TBD,TBD,TBD,TBD,TBD
+f20250131,2025-01-31,Wind-Drifted Snow,,,,,TBD,TBD,TBD,TBD,TBD
+f20250201,2025-02-01,New Snow,Wind-Drifted Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250202,2025-02-02,Wind-Drifted Snow,Persistent Weak Layer,Wet Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250203,2025-02-03,Wind-Drifted Snow,Persistent Weak Layer,Wet Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250204,2025-02-04,Wind-Drifted Snow,Persistent Weak Layer,Wet Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250205,2025-02-05,Wind-Drifted Snow,Persistent Weak Layer,Wet Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250206,2025-02-06,Wind-Drifted Snow,Persistent Weak Layer,Wet Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250207,2025-02-07,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250208,2025-02-08,New Snow,Wind-Drifted Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250209,2025-02-09,New Snow,Persistent Weak Layer,Wet Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250210,2025-02-10,New Snow,Persistent Weak Layer,Wind-Drifted Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250211,2025-02-11,Persistent Weak Layer,New Snow,Wind-Drifted Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250212,2025-02-12,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250213,2025-02-13,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250214,2025-02-14,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250215,2025-02-15,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250216,2025-02-16,Wind-Drifted Snow,Persistent Weak Layer,New Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250217,2025-02-17,Persistent Weak Layer,Wind-Drifted Snow,New Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250218,2025-02-18,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250219,2025-02-19,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250220,2025-02-20,Persistent Weak Layer,New Snow,Wind-Drifted Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250221,2025-02-21,Persistent Weak Layer,New Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250222,2025-02-22,Persistent Weak Layer,New Snow,Wet Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250223,2025-02-23,Persistent Weak Layer,Wind-Drifted Snow,Wet Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250224,2025-02-24,Persistent Weak Layer,Wet Snow,Wind-Drifted Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250225,2025-02-25,Persistent Weak Layer,Wet Snow,Wind-Drifted Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250226,2025-02-26,Persistent Weak Layer,Wind-Drifted Snow,Wet Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250227,2025-02-27,Persistent Weak Layer,Wet Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250228,2025-02-28,Persistent Weak Layer,Wet Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250301,2025-03-01,Wet Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250302,2025-03-02,Wet Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250303,2025-03-03,Persistent Weak Layer,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250304,2025-03-04,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250305,2025-03-05,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250306,2025-03-06,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250307,2025-03-07,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250308,2025-03-08,Persistent Weak Layer,Wet Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250309,2025-03-09,Persistent Weak Layer,Wet Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250310,2025-03-10,Persistent Weak Layer,Wet Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250311,2025-03-11,Wind-Drifted Snow,Persistent Weak Layer,Wet Snow,,,TBD,TBD,TBD,TBD,TBD
+f20250312,2025-03-12,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250313,2025-03-13,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250314,2025-03-14,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250315,2025-03-15,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250316,2025-03-16,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250317,2025-03-17,Wind-Drifted Snow,Wet Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250318,2025-03-18,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250319,2025-03-19,Wind-Drifted Snow,New Snow,Persistent Weak Layer,,,TBD,TBD,TBD,TBD,TBD
+f20250320,2025-03-20,Wind-Drifted Snow,Persistent Weak Layer,,,,TBD,TBD,TBD,TBD,TBD
+f20250321,2025-03-21,Wind-Drifted Snow,,,,,TBD,TBD,TBD,TBD,TBD
+f20250322,2025-03-22,New Snow,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250323,2025-03-23,Wet Snow,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250324,2025-03-24,Wet Snow,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250325,2025-03-25,Wet Snow,Wind-Drifted Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250326,2025-03-26,Wet Snow,,,,,TBD,TBD,TBD,TBD,TBD
+f20250327,2025-03-27,Wet Snow,,,,,TBD,TBD,TBD,TBD,TBD
+f20250328,2025-03-28,Wet Snow,,,,,TBD,TBD,TBD,TBD,TBD
+f20250329,2025-03-29,New Snow,Wet Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250330,2025-03-30,Normal Caution,,,,,TBD,TBD,TBD,TBD,TBD
+f20250331,2025-03-31,Wind-Drifted Snow,New Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250401,2025-04-01,Wind-Drifted Snow,New Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250402,2025-04-02,Wind-Drifted Snow,New Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250403,2025-04-03,Wind-Drifted Snow,New Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250404,2025-04-04,New Snow,,,,,TBD,TBD,TBD,TBD,TBD
+f20250405,2025-04-05,New Snow,Wet Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250406,2025-04-06,Normal Caution,Wet Snow,,,,TBD,TBD,TBD,TBD,TBD
+f20250407,2025-04-07,Normal Caution,,,,,TBD,TBD,TBD,TBD,TBD
+f20250408,2025-04-08,Normal Caution,,,,,TBD,TBD,TBD,TBD,TBD
+f20250409,2025-04-09,Wet Snow,,,,,TBD,TBD,TBD,TBD,TBD
