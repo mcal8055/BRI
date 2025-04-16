@@ -1,4 +1,4 @@
-# Avalanche Accident Risk Modeling Pipeline
+# Avalanche Advisor
 
 This project is an in-progress pipeline to analyze historical avalanche forecast data from the Utah Avalanche Center (UAC) and model accident outcomes based on forecasted risk factors. Due to the lack of a public API, a custom web scraper was developed to retrieve and structure this information.
 
